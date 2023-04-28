@@ -1,4 +1,4 @@
-# Multi-DRC-Unet
-Multi-DRC-Unet 
+# Multi-DRCNnet
+Multi-DRCNet 
 
 The code is coming soon.
