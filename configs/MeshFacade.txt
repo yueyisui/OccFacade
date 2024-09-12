@@ -1,0 +1,27 @@
+expname = MeshFacade_MN_MRC_Unet_vgg_fold1
+base_dir=./logs
+data_dir=./data/MeshFacade
+save_period = 50
+fold_name = fold1
+
+epochs = 300
+input_shape_w = 256
+input_shape_h = 256
+num_classes = 2
+batch_size = 4
+num_workers = 4
+loss_ignore_0
+
+# model : zero_Unet  Unet
+model = zero_Unet
+MD_Module
+MRC_Module
+backbone = vgg
+start_epoch = 0
+
+# adam optimizer
+lr = 0.0001
+weight_decay = 0.0001
+
+pred
+pred_epoch=300

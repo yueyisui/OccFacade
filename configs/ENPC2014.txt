@@ -1,0 +1,26 @@
+expname = ENPC2014_zero_up2_window_Unet_vgg_fold5-test
+base_dir=./logs
+data_dir=./data/ENPC2014_data
+save_period = 100
+fold_name = fold5
+
+epochs = 300
+input_shape_w = 512
+input_shape_h = 512
+num_classes = 8
+batch_size = 8
+num_workers = 4
+
+# model : zero_Unet  Unet
+model = zero_Unet
+MD_Module
+MRC_Module
+backbone = vgg
+start_epoch = 0
+
+# adam optimizer
+lr = 0.0001
+weight_decay = 0.0001
+
+pred
+pred_epoch=300
