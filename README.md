@@ -3,7 +3,7 @@
 
 paper: https://www.tandfonline.com/doi/abs/10.1080/01431161.2024.2391589
 
-We propose a building facade style algorithm OccFacade and a dataset MeshFacade that maps Mesh to images.
+We propose a building facade parsing method called OccFacade and a dataset MeshFacade that maps Mesh to images.
 ![fig9-2](https://github.com/yueyisui/OccFacade/assets/64672040/dac3b463-7656-4870-b15d-2403024fd409)
 
 First you need to run the following to get the code.
